@@ -1,0 +1,11 @@
+<%= link_to pagseguro_init_transaction_url(:payment_method_id => payment_method.id), :method => :post, :id => "pagseguro_button", class: 'btn' do %>
+    <%= image_tag "https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-roxo-assina.gif", alt: "Pague com PagSeguro - é rápido e seguro!" %>
+<% end %>
+
+<script>
+    (function(spreePagSeguro){
+        $('div[data-hook="checkout_payment_step"] input[type="radio"]')
+            .on('click', spreePagSeguro.showOrHide('.continue,[data-hook="coupon_code"]'))
+            .filter(':checked').trigger('click');
+    })(new SpreePagSeguro("<%= payment_method.id %>"));
+</script>

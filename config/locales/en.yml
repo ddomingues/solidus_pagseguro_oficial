@@ -1,0 +1,5 @@
+en:
+  spree:
+    flash:
+      connection_failed: "Could not connect to PagSeguro."
+      generic_error: "PagSeguro failed. %{reasons}"

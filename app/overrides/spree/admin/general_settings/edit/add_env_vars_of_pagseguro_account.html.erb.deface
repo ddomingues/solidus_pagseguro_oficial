@@ -1,0 +1,12 @@
+<!-- insert_after '[data-hook="admin_general_setting_mail_from_address"]' -->
+<div class="field" data-hook="admin_general_setting_mail_from_address">
+  <label for="user_account"><%= Spree.t('pagseguro.user_account') %></label>
+  <br />
+  <input type="text" id="user_account" value="<%= ENV.fetch('SPREE_PAGSEGURO_EMAIL') %>" readonly="readonly" class="fullwidth"/>
+</div>
+
+<div class="field" data-hook="admin_general_setting_mail_from_address">
+  <label for="user_account"><%= Spree.t('pagseguro.user_token') %></label>
+  <br />
+  <input type="text" id="user_account" value="<%= ENV.fetch('SPREE_PAGSEGURO_TOKEN') %>" readonly="readonly" class="fullwidth"/>
+</div>

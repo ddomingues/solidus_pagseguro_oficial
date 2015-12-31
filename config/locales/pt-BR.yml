@@ -1,0 +1,8 @@
+pt-BR:
+  spree:
+    flash:
+      connection_failed: "Nao foi possível conectar a PagSeguro"
+      payment_with_pagseguro: "Processo de Pagamento com a PagSeguro não pode ser iniciado. Razões: %{reasons}"
+    pagseguro:
+      user_account: Conta PagSeguro
+      user_token: Token PagSeguro
