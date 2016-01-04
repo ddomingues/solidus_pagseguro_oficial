@@ -3,6 +3,8 @@ SolidusPagseguroOficial
 
 Extension that integrates with the pagseguro
 
+[![Build Status](https://travis-ci.org/ddomingues/solidus_pagseguro_oficial.svg?branch=master)](https://travis-ci.org/ddomingues/solidus_pagseguro_oficial)
+
 Installation
 ------------
 
