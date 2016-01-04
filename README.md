@@ -23,6 +23,13 @@ bundle
 bundle exec rails g solidus_pagseguro_oficial:install
 ```
 
+You must set 2 environment variables using your PagSeguro account as the following example:
+
+```shell
+export PAGSEGURO_EMAIL=xxx@xxx.com
+export PAGSEGURO_TOKEN=1232328947843794
+```
+
 Testing
 -------
 
