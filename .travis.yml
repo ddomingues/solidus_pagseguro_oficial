@@ -10,3 +10,6 @@ notifications:
     - diego.domingues16@gmail.com
 rvm:
   - 2.2.2
+addons:
+  code_climate:
+    repo_token: 8c6bdfbec7879434fc4104044e2f9dfb0c7ffeb4b04d99f21256cf4e432a7617

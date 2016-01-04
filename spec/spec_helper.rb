@@ -1,6 +1,6 @@
 # Run Coverage report
-# require 'codeclimate-test-reporter'
-# CodeClimate::TestReporter.start
+require 'codeclimate-test-reporter'
+CodeClimate::TestReporter.start
 
 # Configure Rails Environment
 ENV['RAILS_ENV'] = 'test'

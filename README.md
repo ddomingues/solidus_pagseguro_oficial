@@ -4,6 +4,8 @@ SolidusPagseguroOficial
 Extension that integrates with the pagseguro
 
 [![Build Status](https://travis-ci.org/ddomingues/solidus_pagseguro_oficial.svg?branch=master)](https://travis-ci.org/ddomingues/solidus_pagseguro_oficial)
+[![Code Climate](https://codeclimate.com/github/ddomingues/solidus_pagseguro_oficial/badges/gpa.svg)](https://codeclimate.com/github/ddomingues/solidus_pagseguro_oficial)
+[![Test Coverage](https://codeclimate.com/github/ddomingues/solidus_pagseguro_oficial/badges/coverage.svg)](https://codeclimate.com/github/ddomingues/solidus_pagseguro_oficial/coverage)
 
 Installation
 ------------
