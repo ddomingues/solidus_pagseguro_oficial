@@ -1,0 +1,11 @@
+language: ruby
+before_script:
+  - sh -e /etc/init.d/xvfb start
+  - export DISPLAY=:99.0
+script:
+  - bundle exec rake
+notifications:
+  email:
+    - diego.domingues16@gmail.com
+rvm:
+  - 2.2.2
