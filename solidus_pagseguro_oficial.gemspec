@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'solidus_pagseguro_oficial'
-  s.version     = '1.1.0'
+  s.version     = '1.1.1'
   s.summary     = 'Solidus Extension to PagSeguro integration'
   s.description = s.summary
   s.required_ruby_version = '>= 2.2.2'
