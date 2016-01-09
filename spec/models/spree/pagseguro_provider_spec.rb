@@ -6,8 +6,8 @@ module Spree
 
     context '#init_transaction' do
       let(:address) { build(:address_brazil) }
-      let(:order) { create(:order_with_line_items, bill_address: address, ship_address: address) }
-      let(:user) { create(:user, bill_address: address) }
+      let(:user) { create(:user) }
+      let(:order) { create(:order_with_line_items, bill_address: address, ship_address: address, user: user) }
 
       subject { PagseguroProvider.new order, user, "#{HOST}/notify", "#{HOST}/confirm" }
 

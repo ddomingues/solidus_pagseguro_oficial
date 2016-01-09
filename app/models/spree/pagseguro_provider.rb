@@ -33,12 +33,12 @@ class Spree::PagseguroProvider
 
   def sender
     {
-      name: @user.bill_address.full_name,
-      email: @user.email,
+      name: @order.bill_address.full_name,
+      email: @order.email,
       cpf: @user.cpf,
       phone: {
-        area_code: @user.phone_area_code,
-        number: @user.phone_number
+        area_code: @order.bill_address.phone_area_code,
+        number: @order.bill_address.phone_number
       }
     }
   end
